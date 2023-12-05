@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF=8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="midasi">
+<h1>プログラム復習コンテンツ</h1>
+<a href="https://o-saringu.github.io/mokuji/">
+<div class="home"></div>
+</a>
+</div>
+
+<div class="oomidasi"><p>forの中にforを入れる</div>
+
+<div class="yoko">
+	<div class="yoko1">
+	<div class="komidasi1"><p>サンプルコードの結果</p></div>
+	<img src = "4-6.png">
+	</div>
+	<div class="yoko1">
+	<div class="komidasi2"><p>サンプルコード</div>
+<div class="code">
+	<p>　　	size(480, 120);
+	<p>　　	background(0);
+	<p>　　	noStroke(); 
+	<p>　　	for(int y=0; y<=height; y+=40){
+	<p>　　	　for(int x=0; x<=width; x+=40){
+	<p>　　	　fill(255, 140);
+	<p>　　	　ellipse(x, y, 40, 40);
+	<p>　　	　｝
+	<p>　　	｝
+	</div>
+	</div>
+</div>
+
+<div class="komidasi3"><p>説明文</div>
+<div class="ep">
+	<p>　forループの中にforループを埋め込むと、それぞれのループ回数を掛け算した結果が、全体の繰り返しの回数になる。
+	<p>　
+	<p>　例では、yのループ1回目（y=40）の時にxのループの処理を行っている。
+	<p>　よってellipse(40, 40, 40, 40)、ellipse(80, 40, 40, 40)・・・となっていく。
+	<p>　xのループ処理が終わるとyのループは2回目となる。
+	<p>　よってellipse(40, 80, 40, 40)、ellipse(80, 80, 40, 40)・・・となって繰り返されていく。
+</div>
+</body>
